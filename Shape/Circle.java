@@ -8,7 +8,7 @@ public class Circle extends Shape {
         
         super(unitOfMeasurement, color);
         //these are the constructor attributes that this class will inherit from the shape class.
-        //super()
+        //super() <- acts as the super constructor
 
         //this.radius is exclusive to the circle class. which is why we added double radius 
         //in the constructor parameter.

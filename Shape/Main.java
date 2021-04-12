@@ -1,4 +1,3 @@
-import java.util.Arrays;
 public class Main {
     public static void main(String[] args) throws Exception {
 
@@ -24,10 +23,10 @@ public class Main {
         Shape squarePizza = new Square("meters","yellow",12,3);
         System.out.println(squarePizza.getArea());
 
-        Shape aCircle = new Circle("meters", "blue", 2);
-        Shape aSquare = new Square("millimeters","yellow",5,5);
-        Shape anotherCircle = new Circle();
-        Shape anotherSquare = new Square();
+        //Shape aCircle = new Circle("meters", "blue", 2);
+        //Shape aSquare = new Square("millimeters","yellow",5,5);
+        //Shape anotherCircle = new Circle();
+        //Shape anotherSquare = new Square();
         
         //ARRAY OF OBJECTS
         Shape[] smallPizza = new Circle[5];
