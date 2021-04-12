@@ -8,6 +8,11 @@ public abstract class Gun {
         this.ammo = ammo;
     }
 
+    Gun(){
+        this.material = "Wood";
+        this.ammo = 10;
+    }
+    abstract void getName();
     abstract void fire();
     abstract void reload();
     abstract void getAmmo();

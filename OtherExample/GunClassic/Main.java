@@ -8,5 +8,12 @@ public class Main{
 
         gun2.fire();
         gun2.getAmmo();
+
+        
+        Gun[] arrGun = {gun2,gun3};
+
+        for(Gun i: arrGun){
+            i.getName();
+        }
     }
 }

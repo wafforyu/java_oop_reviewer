@@ -8,6 +8,16 @@ public class FullAutomatic extends Gun{
         this.name = name;
     }
 
+    FullAutomatic(){
+        this.name = "Default";
+        this.material = "wood";
+        this.ammo = 40;
+    }
+
+    void setName(String name){
+        this.name = name;
+    }
+
     void getName(){
         System.out.println(this.name);
         System.out.println("This is a full-auto.");

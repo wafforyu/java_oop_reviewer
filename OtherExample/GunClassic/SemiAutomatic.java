@@ -8,7 +8,7 @@ public class SemiAutomatic extends FullAutomatic{
     }
 
     void getName(){
-        super.getName();
+        System.out.println(this.name);
         System.out.println("This is a semi-auto");
     }
 
