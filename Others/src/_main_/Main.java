@@ -11,5 +11,13 @@ public class Main {
         Player player1 = new Wizard();
         int C = Constants.C;
         float PI = Constants.PI;
+
+        rifle1.getName();
+        rifle2.getName();
+        player1.getStatus();
+
+        System.out.println(C);
+        System.out.println(PI);
     }
+
 }

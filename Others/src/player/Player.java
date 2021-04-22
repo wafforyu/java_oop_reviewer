@@ -5,7 +5,7 @@ public class Player {
     private String username;
     private String email;
     protected String role;
-    private String psswd;
+    public String psswd;
 
     public Player(String username, String email, String role, String psswd){
         this.username = username;
