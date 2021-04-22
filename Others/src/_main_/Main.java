@@ -1,0 +1,15 @@
+package _main_;
+import gun.*;
+import player.*;
+import static_keyword.Constants;
+
+public class Main {
+    public static void main(String[] args) {
+        Gun rifle1 = new FullAutomatic();
+        Gun rifle2 = new SemiAutomatic("silver", 20, "Guardian", true);
+
+        Player player1 = new Wizard();
+        int C = Constants.C;
+        float PI = Constants.PI;
+    }
+}
