@@ -1,4 +1,7 @@
+//main package
 package _main_;
+
+//import all classes using wildcard
 import gun.*;
 import player.*;
 import static_keyword.Constants;
