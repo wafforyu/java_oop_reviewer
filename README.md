@@ -17,7 +17,7 @@ ENCAPSULATION: Encapsulates classes/methods/attributes to prevent unintentional 
 •    private = can only be accessed inside the class. ENCAPSULATION.
 •    protected = can be accessed anywhere inside the package.
  
-INHERITANCE self-explanatory
+INHERITANCE self-explanatory, lets a class inherit from another.
 •    extends = lets a subclass inherit from a superclass
 •    super() = lets a subclass inherit the constructor attributes.
   
